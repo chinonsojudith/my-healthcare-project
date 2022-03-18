@@ -601,16 +601,48 @@ hr{
     }
 }
 @media screen and (max-width: 768px) {
-    .navbtn{
+    .nav-bar{
         display: none
+    }
+    .toggle{
+        display: block;
+    }
+
+    .toggle-list {
+        /* display:none; */
+        width:15%;
+        position:absolute;
+        right:0;
+        top: 3rem;
+        min-width: 100px;
+        background-color: #fff;
+    }
+    .toggle-list a {
+        display:block;
+        text-decoration: none;
+        color:#696969;
+        font-size:12px;
+        margin: 1rem 0 ;
+        text-align: center;
+    }
+    .toggle-list button {
+        display: flex;
+        padding: 0 0.2rem;
+        margin:1rem auto;
+        justify-content:center;
     }
     .head-flex{
         display: flex!important;
+        align-items: center;
+    }
+    .logo{
+        font-size:25px;
     }
     .head_body_flex{
         display: block;
         margin-top: 20%;
     }
+
     .text_item{
         margin: auto;
         text-align: center;
@@ -711,7 +743,7 @@ hr{
     }
 
 
-
+    .toggle
     .section_eight{
         display:block;
         
