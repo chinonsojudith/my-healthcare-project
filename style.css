@@ -630,6 +630,7 @@ hr{
         padding: 0 0.2rem;
         margin:1rem auto;
         justify-content:center;
+        color: #fff;
     }
     .head-flex{
         display: flex!important;
@@ -742,8 +743,6 @@ hr{
         display:block;
     }
 
-
-    .toggle
     .section_eight{
         display:block;
         
@@ -767,6 +766,7 @@ hr{
         margin-top:3%;
     }
 }
+
 
 @media screen and (max-width: 500px){
     .text_list{
@@ -813,6 +813,34 @@ hr{
 
 
 }
+@media screen and (max-width: 400px){
+    .image_item img{
+        display: none;
+    }
+    .text_item{
+        margin-bottom:0%;
+    }
+    .text_item h1{
+        font-size: 35px;
+    }
+    .text_item p{
+        font-size: 10px;
+    }
+    .font-h2{
+        font-size: 30px;
+    }
+    .font-p{
+        font-size: 10px; 
+    }
+    .sect2-p{
+        font-size: 10px;
+    }
+    .p_flex{
+        text-align: left;
+        width: 100%;
+    }
+}
+
 
 
  

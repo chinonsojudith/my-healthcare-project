@@ -66,6 +66,17 @@ h6{
     font-family:'Poppins', sans-serif;
     
 }
+.toggle {
+    display:none;
+    font-size:1.5rem;
+    color:white;
+}
+.toggle-list{
+    display:none;
+}
+.toggle-display {
+    display:block;
+}
 .ative{
     color: #40A3F8!important;
 }
@@ -313,13 +324,40 @@ footer div{
     .nav-bar{
         display: none;
     }
+    .toggle{
+        display: block;
+        }
+    
+    .toggle-list {
+            /* display:none; */
+            width:15%;
+            position:absolute;
+            right:0;
+            top: 3rem;
+            min-width: 100px;
+            background-color: #fff;
+        }
+    .toggle-list a {
+            display:block;
+            text-decoration: none;
+            color:#696969;
+            font-size:12px;
+            margin: 1rem 0 ;
+            text-align: center;
+        }
+     .toggle-list button {
+            display: flex;
+            padding: 0 0.2rem;
+            margin:1rem auto;
+            justify-content:center;
+        }
      .btn_btn_flex{
         display: block;
     
     }
     .contact_container{
         width: 100%;
-        /* text-align: center; */
+        
     }
     .message_container{
         width: 100%;
@@ -328,14 +366,11 @@ footer div{
    
     
 }
-@media screen and (max-width:600px){
-    .center_text{
-        /* margin-top:15%; */
 
-    }
-
-}
 @media screen and (max-width:450px){
+    .logo{
+        font-size:27px;
+    }
     .col_3{
         display:block;
     }
@@ -346,4 +381,15 @@ footer div{
     .terms{
         display: none;
     }
+    .center_text h1{
+        font-size:  40px;
+
+    }
+    .center_text p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+
+    
 }
