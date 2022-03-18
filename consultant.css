@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+}
+
+.col_1{
+
+    background-color: #40A3F8;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 16%;
+}
+
+
+.col_2{
+    width: 84%;
+    margin-left: 16%;
+}
+
+.col_1_flex{
+    display: flex;
+    gap:20px;
+    width:100%;
+    padding: 5% 0% 5% 19%;
+    align-items: center;
+    
+}
+.col_1_flex a{
+    text-decoration: none;
+    color: #fff;
+}
+.profile{
+    padding: 5% 4% 5% -10%;
+    width: 17%;
+}
+
+h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height:15px;
+    padding: 1%;
+    text-align:center; 
+}
+h1{
+    font-size: 20px;
+    font-weight:900;
+}
+.active{
+    background-color: #1D2B4F;
+    border-left: 2px solid #fff
+}
+.logo{
+    padding: 5% 4% 5% 13%;
+    
+    margin-bottom:  20px;
+    
+}
+.col_1_space{
+    margin-bottom:  60%;
+}
+
+.sect_1{
+     display:flex;
+    justify-content: flex-end;
+    gap: 20px;
+    background-color: #fff;
+    
+    padding: 0.5% 3%;
+}
+.col_2_sub_grid{
+    display: grid;
+    grid-template-columns: 72% 25%;
+    gap:3%;
+    padding: 3% 3%;
+    
+    
+}
+.sub_1_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #40A3F8;
+    border-radius:10px;
+    padding:0% 5%;
+}
+.sub_1{
+   text-align: left;
+    color: #fff;
+}
+h3{
+    font-weight:500;
+    font-size: 30px;
+}
+.sub_1 h3{
+    margin-bottom:8px;
+    
+}
+.sub_1 p{
+    margin-bottom:12px;
+}
+span{
+    font-weight: 700;
+}
+
+p{
+    font-size:14px;
+    font-weight:400;
+    line-height:20px;
+}
+button{
+    padding:2%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    color:white;
+    font-weight:700;
+   outline: none;
+   border: 1px solid rgba(255, 255, 255, 0.1)
+}
+.scheduler-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+.cont_1{
+    background-color: #fff;
+    border-radius:10px;
+    padding: 3% 2%;
+    width: 30%;
+    
+    
+}
+.img-flex{
+    display:flex;
+    justify-content:space-between;
+}
+.icon-flex{
+    display:flex;
+    gap:3px;
+}
+.icon2{
+    display:flex;
+    gap:3px;
+}
+.icon_bg_1{
+    background: rgba(90, 94, 237, 0.1);
+   
+}
+.icon_bg_2{
+    background: #FFF9EA;
+    
+}
+.icon_bg_3{
+    
+    background: rgba(250, 121, 33, 0.1);
+    
+}
+h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    color: #1D2B4F;
+}
+h2{
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 31px;
+    color: #1D2B4F;
+}
+.icon{
+    padding: 10%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+   
+}
+#btm {
+    font-weight: 400 ;
+    line-height: 17px ;
+    color:#1D2B4F ;
+    font-size: 15px;
+
+}
+
+.cont_1 p{
+    font-weight: 400;
+    line-height: 31px;
+    color: #8692A6;
+   
+    
+}
+.patient-list-container{
+    background-color: #fff;
+    margin-top:3%;
+    padding: 3% 2%;
+    border-radius: 10px;
+}
+.blue-line{
+    display:block;
+}
+.patient-list{
+    display: flex;
+    justify-content: space-between;
+}
+.patient{
+    font-size: 19px;
+    font-weight:700;
+    color:#1D2B4F;
+
+}
+.patient-flex{
+    display: flex;
+    margin-top: 3%;
+}
+.patient-patient{
+    padding: 2%;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    background-color: rgba(134, 146, 166, 0.05);
+    
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+} 
+.dot-flex{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.view{
+    color: #40A3F8;
+    font-weight:500;
+}
+.chart{
+    margin-top: 3%;
+}
+.chart img{
+    width: 100%;
+}
+
+.sub_2{
+    width: 100%;
+}
+
+.sub-img{
+    width: 100%;
+    
+}
+.gender_img{
+    margin-top:10px;
+}
+.activity{
+    border-radius: 7px;
+    
+}
+
+.activity-flex{
+    display:flex;
+    gap:3%;
+    padding: 2% 2%;
+    
+    
+    
+}
+@media screen and (max-width:1024px) {
+    .col_1{
+        width: 8%;       
+    }
+    .col_1 h1{
+        display:none;
+    }
+    .col_1 h6{
+        display:none;
+    }
+    
+    
+    .col_2{
+        width: 92%;
+        margin-left: 8%;   
+    }
+
+    .col_1_flex {
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15% 0;
+    }
+}
+@media screen and (max-width:768px) {
+    .col_2_sub_grid{
+        grid-template-columns: 100%;
+        
+        
+    }
+    .activity-flex{
+       align-items: center;
+        padding: 0% 5%;
+        
+        
+        
+    }
+    .character img{
+        display:none;
+    }
+    .sub_1_flex{
+        
+        padding:7% 20%;
+    }
+    .sub_1{
+       
+        text-align: center;
+        
+    }
+    h3{
+    font-size: 30px;
+    }
+    .margin{
+        margin-top: -10%;
+    }
+    .scheduler-container{
+        display:block;
+        
+    }
+    .cont_1{
+        margin-bottom:3%;
+        width: 100%;
+        padding:3%;
+        
+        
+    }
+    .icon{
+        padding: 5%;
+       
+    }
+    .patient-list-container{
+        padding: 3% 3%;
+        
+    }
+    
+    
+    
+}
+@media screen and (max-width:600px){
+    .sub_1 button{
+        
+    }
+}
