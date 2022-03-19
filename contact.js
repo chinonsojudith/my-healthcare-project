@@ -1,23 +1,13 @@
-let input = document.querySelectorAll(".input-data")
-let form = document.querySelector("#form-btn")
+document.getElementById('form-btn')
 
-const details = {}
-form.addEventListener('submit',(e)=>{
-    e.preventDefault()
-    for(data of input){
-      details[data.name] = data.value
-      
-    }
-    sessionStorage.setItem('getData' ,JSON.stringify(details))
-    console.log(details)
-})
+.addEventListener('submit', () => {
+    let name = document.getElementById('userName').value;
+    let email = document.getElementById('userEmail').value;
+    let message = document.getElementById('userMessage').value;
+
+    const userInput = { name, email, message };
+    sessionStorage.setItem(`${name}'s Message`, JSON.stringify(userInput));
+    alert(`Hello ${name}, Your message has been sent, we will get back to you shortly. Thank you`)
+});
 
 
-
-// toogle menu display code 
-let toggle = document.querySelector('#toggle');
-let toggleList = document.querySelector('.toggle-list');
-toggle.addEventListener('click', ()=> {
-    toggleList.classList.toggle('toggle-display')
-    
-})
