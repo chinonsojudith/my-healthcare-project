@@ -814,6 +814,9 @@ hr{
 
 }
 @media screen and (max-width: 400px){
+    .container{
+        height: 80vh;
+    }
     .image_item img{
         display: none;
     }
@@ -838,6 +841,15 @@ hr{
     .p_flex{
         text-align: left;
         width: 100%;
+    }
+    .section_one_flex p{
+        font-size: 11px;
+    }
+    .p12{
+        font-size: 10.5px;
+    }
+    .step_image{
+        margin-top:15px;
     }
 }
 

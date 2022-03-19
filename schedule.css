@@ -166,6 +166,9 @@ button{
     align-items: center;
     gap: 10px;
 } 
+.d-flex img{
+    width: 20%;
+}
 .dot-flex{
     display: flex;
     justify-content:space-between;
@@ -268,5 +271,17 @@ button{
     .blue-colr{
         font-size: 14px;
     }
+    .col_1{
+        width: 10%;       
+    }
+    
+    
+    
+    
+    .grid-colum{
+        width: 90%;
+        margin-left: 10%;   
+    }
+
 }
 

@@ -87,7 +87,7 @@ fetch(patientURL)
                     }  else if (details2.type.toLowerCase() === 'interview') {
                         document.querySelector('.act').innerHTML +=`
                             <div class="activity-flex patient-flex">
-                            <div><img src="img/orange app.svg"></div>
+                            <div><img src="img/schedule i.svg"></div>
                             <div>${details2.title}</div>
                             </div>
                             `
