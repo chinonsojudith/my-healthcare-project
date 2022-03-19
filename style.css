@@ -815,7 +815,7 @@ hr{
 }
 @media screen and (max-width: 400px){
     .container{
-        height: 80vh;
+        height: 100vh;
     }
     .image_item img{
         display: none;
